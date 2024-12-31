@@ -1,0 +1,119 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.the freaking dog.walk": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"head": {
+					"rotation": {
+						"0.0": {
+							"vector": [-150.45832, -81.98503, 70.13489]
+						},
+						"0.5": {
+							"vector": [159.4407, 58.77409, 180.1882]
+						},
+						"1.0": {
+							"vector": [-150.45832, -81.98503, 70.13489]
+						}
+					}
+				},
+				"legl": {
+					"rotation": {
+						"0.0": {
+							"vector": [30, 0, 0],
+							"easing": "easeInOutCubic"
+						},
+						"0.5": {
+							"vector": [-47.5, 0, 0],
+							"easing": "easeInOutCubic"
+						},
+						"1.0": {
+							"vector": [30, 0, 0],
+							"easing": "easeInOutCubic"
+						}
+					}
+				},
+				"legr": {
+					"rotation": {
+						"0.0": {
+							"vector": [-47.5, 0, 0]
+						},
+						"0.5": {
+							"vector": [30, 0, 0],
+							"easing": "easeInOutCubic"
+						},
+						"1.0": {
+							"vector": [-47.5, 0, 0],
+							"easing": "easeInOutQuad"
+						}
+					},
+					"position": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"eyer": {
+					"rotation": {
+						"0.0": {
+							"vector": [-25, 0, -22.5]
+						},
+						"0.5": {
+							"vector": [-0.9032, -39.85571, 0.40981]
+						},
+						"1.0": {
+							"vector": [-25, 0, -22.5],
+							"easing": "easeInOutBounce"
+						}
+					}
+				},
+				"eyel": {
+					"rotation": {
+						"0.0": {
+							"vector": [-0.9032, -39.85571, 0.40981]
+						},
+						"0.5": {
+							"vector": [-25, 0, -22.5],
+							"easing": "easeInOutBounce"
+						},
+						"1.0": {
+							"vector": [-0.9032, -39.85571, 0.40981]
+						}
+					}
+				}
+			}
+		},
+		"animation.the freaking dog.idle": {
+			"loop": true,
+			"animation_length": 0.5,
+			"bones": {
+				"tounge": {
+					"rotation": {
+						"vector": [-377.5, 0, 0]
+					},
+					"scale": {
+						"0.0": {
+							"vector": [1, 0.7848, 1]
+						},
+						"0.25": {
+							"vector": [1, 1.8, 1]
+						},
+						"0.5": {
+							"vector": [1, 0.7848, 1]
+						}
+					}
+				},
+				"eyel": {
+					"rotation": {
+						"vector": [36.04466, -31.81666, -20.98998]
+					}
+				},
+				"eyer": {
+					"rotation": {
+						"vector": [-19.64625, -6.29004, -30.52767]
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

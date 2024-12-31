@@ -1,0 +1,20 @@
+{
+  "voltage-screamer": {
+    "subtitle": "subtitles.voltage-screamer",
+    "sounds": [
+      {
+        "name": "whay:balls",
+        "stream": false
+      }
+    ]
+  },
+  "elmo-motor-failure": {
+    "subtitle": "subtitles.elmo-motor-failure",
+    "sounds": [
+      {
+        "name": "whay:halls",
+        "stream": false
+      }
+    ]
+  }
+}

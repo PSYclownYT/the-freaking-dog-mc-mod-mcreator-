@@ -1,0 +1,253 @@
+{
+  "mod_elements": [
+    {
+      "name": "TheFreakingDog",
+      "type": "animatedentity",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_freaking_dog",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/whay/entity/model/TheFreakingDogModel.java",
+          "src/main/java/net/mcreator/whay/entity/TheFreakingDogEntity.java",
+          "src/main/resources/data/whay/forge/biome_modifier/the_freaking_dog_biome_modifier.json",
+          "src/main/resources/assets/whay/models/item/the_freaking_dog_spawn_egg.json",
+          "src/main/java/net/mcreator/whay/client/renderer/TheFreakingDogRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "WHAYEntitySwingsItem",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "whay_entity_swings_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/whay/procedures/WHAYEntitySwingsItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WHAY",
+      "type": "tool",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "whay",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/whay/models/item/whay.json",
+          "src/main/java/net/mcreator/whay/item/WHAYItem.java"
+        ]
+      }
+    },
+    {
+      "name": "WHAYRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "whay_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/whay/procedures/WHAYRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BlockofwhayBlockAdded",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blockofwhay_block_added",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/whay/procedures/BlockofwhayBlockAddedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Blockofwhay",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blockofwhay",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/whay/models/block/blockofwhay.json",
+          "src/main/resources/assets/whay/blockstates/blockofwhay.json",
+          "src/main/resources/assets/whay/models/item/blockofwhay.json",
+          "src/main/java/net/mcreator/whay/block/BlockofwhayBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "ElmoBlock",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elmo_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/whay/models/item/elmo_block.json",
+          "src/main/resources/assets/whay/blockstates/elmo_block.json",
+          "src/main/java/net/mcreator/whay/block/ElmoBlockBlock.java",
+          "src/main/resources/assets/whay/models/block/elmo_block.json"
+        ]
+      }
+    },
+    {
+      "name": "WhayHouse",
+      "type": "structure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "whay_house",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/whay/forge/biome_modifier/whay_house_biome_modifier.json",
+          "src/main/resources/data/whay/worldgen/placed_feature/whay_house.json",
+          "src/main/java/net/mcreator/whay/world/features/WhayHouseFeature.java",
+          "src/main/resources/data/whay/worldgen/configured_feature/whay_house.json"
+        ]
+      }
+    },
+    {
+      "name": "WhayBiome",
+      "type": "biome",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "whay_biome",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/whay/worldgen/placed_feature/whay_biome_tree.json",
+          "src/main/resources/data/whay/worldgen/configured_feature/whay_biome_tree.json",
+          "src/main/resources/data/whay/worldgen/biome/whay_biome.json"
+        ]
+      }
+    },
+    {
+      "name": "Gun",
+      "type": "rangeditem",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gun",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/whay/item/GunItem.java",
+          "src/main/resources/assets/whay/models/item/gun.json",
+          "src/main/java/net/mcreator/whay/entity/GunEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "WhayGUI",
+      "type": "gui",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "whay_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/whay/world/inventory/WhayGUIMenu.java",
+          "src/main/java/net/mcreator/whay/client/gui/WhayGUIScreen.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "voltage-screamer",
+      "files": [
+        "balls"
+      ],
+      "category": "hostile",
+      "subtitle": "oooaaaiIIIIIOoOOoooOooWWNnnn"
+    },
+    {
+      "name": "elmo-motor-failure",
+      "files": [
+        "halls"
+      ],
+      "category": "neutral",
+      "subtitle": "ÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆ"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "subtitles.elmo-motor-failure": "ÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆ",
+      "entity.whay.the_freaking_dog": "The Freaking Dog",
+      "block.whay.blockofwhay": "Blockofwhay",
+      "item.whay.gun": "Marksman Revolver",
+      "block.whay.elmo_block": "Elmo Block",
+      "biome.whay.whay_biome": "Whay Biome",
+      "subtitles.voltage-screamer": "oooaaaiIIIIIOoOOoooOooWWNnnn",
+      "item.whay.the_freaking_dog_spawn_egg": "The Freaking Dog Spawn Egg",
+      "item.whay.whay": "WHAY"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "whay",
+    "modName": "WHAY",
+    "version": "1.0.0",
+    "author": "eric, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "geckolib"
+    ],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.whay",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300336712
+}

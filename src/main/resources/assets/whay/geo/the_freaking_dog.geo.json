@@ -1,0 +1,89 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.the freaking dog",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "bb_main",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-1, 4, -3], "size": [2, 8, 2], "pivot": [0, 4, -2], "rotation": [-17.5, 0, 0], "uv": [42, 0]},
+						{"origin": [-7, 4, -3], "size": [2, 8, 2], "pivot": [-6, 4, -2], "rotation": [-17.5, 0, 0], "uv": [16, 40]},
+						{"origin": [-6, 10, -6], "size": [6, 6, 10], "pivot": [-3, 10, -3], "rotation": [-55, 0, 0], "uv": [3, 0]}
+					]
+				},
+				{
+					"name": "legs",
+					"pivot": [-6, 1, 9.5]
+				},
+				{
+					"name": "legr",
+					"parent": "legs",
+					"pivot": [0, 7, 4.5],
+					"cubes": [
+						{"origin": [-1, 1, 7.75], "size": [2, 8, 2], "pivot": [0, 1, 8.75], "rotation": [42.5, 0, 0], "uv": [0, 40]},
+						{"origin": [-1, 1, 8.5], "size": [2, 8, 2], "pivot": [0, 1, 9.5], "rotation": [90, 0, 0], "uv": [36, 37]}
+					]
+				},
+				{
+					"name": "legl",
+					"parent": "legs",
+					"pivot": [-6, 7, 4.5],
+					"cubes": [
+						{"origin": [-7, 1, 7.75], "size": [2, 8, 2], "pivot": [-6, 1, 8.75], "rotation": [42.5, 0, 0], "uv": [8, 40]},
+						{"origin": [-7, 1, 8.5], "size": [2, 8, 2], "pivot": [-6, 1, 9.5], "rotation": [90, 0, 0], "uv": [28, 37]}
+					]
+				},
+				{
+					"name": "head",
+					"pivot": [-3.5, 14, -2],
+					"cubes": [
+						{"origin": [-6.5, 14, -11], "size": [7, 5, 11], "pivot": [-5.5, 12, -3], "rotation": [40, 0, 0], "uv": [-2, 14]},
+						{"origin": [-6.5, 15, -5], "size": [7, 2, 7], "pivot": [-5.5, 12, 1], "rotation": [67.5, 0, 0], "uv": [0, 30]},
+						{"origin": [3, 12, -5.25], "size": [1, 5, 4], "pivot": [-2, 10, -2.25], "rotation": [0, 0, -22.5], "uv": [32, 0]}
+					]
+				},
+				{
+					"name": "eyer",
+					"parent": "head",
+					"pivot": [-1.5, 19, -8],
+					"cubes": [
+						{"origin": [-2.5, 19, -9], "size": [2, 2, 2], "pivot": [-1.5, 19, -8], "rotation": [4.98107, 0.43523, -177.48107], "uv": [44, 37]}
+					]
+				},
+				{
+					"name": "eyel",
+					"parent": "head",
+					"pivot": [-5, 17, -8],
+					"cubes": [
+						{"origin": [-6, 17, -9], "size": [2, 2, 2], "pivot": [-5, 17, -8], "rotation": [-5, 0, -5], "uv": [44, 37]}
+					]
+				},
+				{
+					"name": "tounge",
+					"parent": "head",
+					"pivot": [-5.5, 14, -4],
+					"cubes": [
+						{"origin": [-5.5, 16, -4], "size": [5, 1, 5], "pivot": [-5.5, 12, 0], "rotation": [77.5, 0, 0], "uv": [23, 16]}
+					]
+				},
+				{
+					"name": "leftear",
+					"parent": "head",
+					"pivot": [-14, 14, -2.25],
+					"cubes": [
+						{"origin": [-9, 16, -5.25], "size": [1, 5, 4], "pivot": [-14, 14, -2.25], "rotation": [0, 0, 22.5], "uv": [0, 0]}
+					]
+				}
+			]
+		}
+	]
+}

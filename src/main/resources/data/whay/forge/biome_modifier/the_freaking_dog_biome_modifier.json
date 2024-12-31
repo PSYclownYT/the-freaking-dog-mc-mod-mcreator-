@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "whay:whay_biome",
+  "spawners": {
+    "type": "whay:the_freaking_dog",
+    "weight": 1,
+    "minCount": 4,
+    "maxCount": 4
+  }
+}
